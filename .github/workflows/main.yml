@@ -11,9 +11,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash
+    #defaults:
+      #run:
+        #shell: bash
     permissions:
       packages: write
     steps:
